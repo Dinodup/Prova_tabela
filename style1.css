@@ -1,0 +1,78 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Azul claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #f7d700; /* Amarelo */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    color: #003366; /* Azul escuro */
+    margin-bottom: 20px;
+}
+
+/* Links */
+a {
+    color: #003366; /* Azul escuro */
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tabela */
+.n-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.n-table th,
+.n-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.n-table th {
+    background-color: #003366; /* Azul escuro */
+    color: #fff;
+}
+
+.n-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.n-table tr:hover {
+    background-color: #f7d700; /* Amarelo */
+}
+
+/* Botões de ação */
+.n-table a {
+    color: #003366; /* Azul escuro */
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.n-table a:hover {
+    background-color: #003366; /* Azul escuro */
+    color: #fff;
+}

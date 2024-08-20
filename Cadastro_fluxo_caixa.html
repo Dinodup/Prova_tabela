@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="Cadastro_fluxo_caixa.php" method="post">
+        <fieldset>
+            <legend>Cadastro Fluxo Caixa</legend>
+
+            <div>
+                <label for="data">Data: </label>
+                <input type="date" name="data" id="data" required>
+            </div><p></p>
+
+            <h3>Tipo</h3>
+            <div class="inline">
+                <input type="radio" name="tipo" id="tipoE" value="1" class="inline" /><label id="tipoE">Entrada</label>
+                <input type="radio" name="tipo" id="tipoS" value="0" class="inline" /><label id="tipoS">Saída</label>
+            </div><p></p>
+
+            <div>
+                <label for="valor">Valor: </label>
+                <input type="number" name="valor" id="valor" required>
+            </div><p></p>
+
+            <div>
+                <label for="historico">Histórico: </label>
+                <input type="text" name="historico" id="historico" required>
+            </div><p></p>
+
+            <div>
+            <label for="cheque">Cheque: </label>
+            <select name="cheque" id="cheque">
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+            </div>
+
+        <div>
+            <button type="submit">Cadastrar</button>
+        </div>
+    </fieldset>
+    </form>
+    <a href="index.html">Voltar para a Tela Inicial</a>
+</body>
+</html>
